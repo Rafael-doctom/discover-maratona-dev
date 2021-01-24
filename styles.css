@@ -9,6 +9,20 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.container {
+  width: min(90vw, 800px);
+  margin: auto;
+}
+
+/* Titles ================ */
+h2 {
+  margin-top: 3.2rem;
+  margin-bottom: 0.8rem;
+  color: #363f5f;
+  font-weight: normal;
+}
+
+/* Header ================ */
 header {
   background: #2D4A22;
   padding: 2rem 0 10rem;
@@ -16,6 +30,21 @@ header {
 }
 
 #logo {
-  color: #fff;
+  color: #FFF;
   font-weight: 100;
+}
+
+/* Balance ================ */
+#balance {
+  margin-top: -8rem;
+}
+
+#balance h2 {
+  color: #FFF;
+  margin-top: 0;
+}
+
+/* Footer ================ */
+footer {
+  text-align: center;
 }
